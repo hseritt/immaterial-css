@@ -2,7 +2,7 @@
 
 Yet another self-created css file. It has very little layout settings but it's mostly for styling.
 
-Inspired by (Tania Rascia's Primitive CSS framework)[https://github.com/taniarascia/primitive].
+Inspired and ripped from [Tania Rascia's Primitive CSS framework](https://github.com/taniarascia/primitive).
 
 ## How to use?
 
@@ -129,6 +129,8 @@ a.nav, a.nav:visited {
 }
 ```
 
+### section
+
 I like to use <section> within a div and give the child content some padding.
 
 ```css
@@ -144,6 +146,8 @@ Consider this one optional. Normally, you wouldn't underline a heading but I hav
   text-decoration: underline;
 }
 ```
+
+### hyperlinks
 
 Below are my normal link "a"'s.
 
@@ -161,6 +165,8 @@ a:hover {
 }
 ```
 
+### button
+
 Still not sure if I'm going to stick with these button stylings or not.
 
 ```css
@@ -171,6 +177,8 @@ button {
 }
 ```
 
+### content text
+
 This is where I take the content text and make it just a tad lighter. Not too much though because my sight is beginning to dwindle a bit.
 
 ```css
@@ -178,6 +186,8 @@ p, li, pre, td, th {
   opacity: 0.85;
 }
 ```
+
+### table
 
 Shamelessly took these tables (and if you look over the whole css page, you'll see many other things too) from Tania Rasica's primitive css stylings.
 
@@ -225,6 +235,8 @@ caption {
   overflow-x: auto;
 }
 ```
+
+### input widgets
 
 Adding some border-radius and padding to the input widgets:
 
@@ -307,6 +319,8 @@ legend {
 }
 ```
 
+### misc
+
 Blockquote stuff ...
 
 ```css
@@ -326,6 +340,8 @@ blockquote cite {
 }
 ```
 
+### footer
+
 The magic of making the footer stay at the bottom even when there's no filler content and it's without vertical scrollbars, is to use flexbox and set margin-top to auto.
 
 ```css
@@ -338,6 +354,8 @@ footer {
 }
 ```
 
+### pre
+
 For making pre behave when I really horizontally squish the page.
 
 ```css
@@ -345,6 +363,8 @@ pre {
   white-space: pre-line;
 }
 ```
+
+### other
 
 Still not quite sure what this does yet.
 
