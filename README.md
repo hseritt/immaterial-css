@@ -4,10 +4,6 @@ Yet another self-created css file. It has very little layout settings but it's m
 
 Inspired by and some of it ripped from [Tania Rascia's Primitive CSS framework](https://github.com/taniarascia/primitive).
 
-## How to use?
-
-Download the styles.css file to a place you can import it into your html page. It will take of the rest itself.
-
 ## Some Guidelines
 
 * I like flexbox for those times when I have an unknown number of rows or columns. It handles those nicely.
@@ -17,6 +13,23 @@ Download the styles.css file to a place you can import it into your html page. I
 * I like bigger fonts in some things (for instance where it needs to be bigger like headings and such). I prefer "quieter" font styles for paragraphs or li element text.
 
 * In my "widgets" I like padding :-) but not necessarily bigger fonts. Do what you will.
+
+## How to use?
+
+Download the styles.css file to a place you can import it into your html page. It will take of the rest itself.
+
+For simple nav links, try something like this:
+
+```html
+<ul class="nav">
+    <li class="nav first"><a class="nav" href="#">Home</a></li>
+    <li class="nav"><a class="nav" href="#">Contact</a></li>
+    <li class="nav"><a class="nav" href="#">About</a></li>
+    <li class="nav right last"><a class="nav" href="#">Login</a></li>
+</ul>
+```
+
+## Some Commentary
 
 ### html
 
