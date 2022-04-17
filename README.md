@@ -1,6 +1,9 @@
 # immaterial-css
 
 Yet another self-created css file. It has very little layout settings but it's mostly for styling.
+
+Inspired by (Tania Rascia's Primitive CSS framework)[https://github.com/taniarascia/primitive].
+
 ## How to use?
 
 Download the styles.css file to a place you can import it into your html page. It will take of the rest itself.
@@ -15,7 +18,7 @@ I like bigger fonts in some things (for instance where it needs to be bigger lik
 
 In my "widgets" I like padding :-) but not necessarily bigger fonts. Do what you will.
 
-### <html>
+### html
 
 Setting a decent line-height below for your whole page. Feel free to adjust.
 
@@ -25,7 +28,7 @@ html {
 }
 ```
 
-### <body>
+### body
 
 Sets the height to 100% for view-height. The display uses flexbox. So, all direct child blocks are rendered in column fashion. Setting flex-direction to something other than "column" will make things look ... err ... funky. Consider not doing it.
 
