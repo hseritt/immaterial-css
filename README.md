@@ -1,5 +1,6 @@
 # immaterial-css
 
+Yet another self-created css file. It has very little layout settings but it's mostly for styling.
 ## How to use?
 
 Download the styles.css file to a place you can import it into your html page. It will take of the rest itself.
@@ -167,10 +168,17 @@ button {
 }
 ```
 
+This is where I take the content text and make it just a tad lighter. Not too much though because my sight is beginning to dwindle a bit.
+
+```css
 p, li, pre, td, th {
   opacity: 0.85;
 }
+```
 
+Shamelessly took these tables (and if you look over the whole css page, you'll see many other things too) from Tania Rasica's primitive css stylings.
+
+```css
 table {
   margin: 0 0 1.5rem 0;
 }
@@ -213,7 +221,11 @@ caption {
 .contain-table {
   overflow-x: auto;
 }
+```
 
+Adding some border-radius and padding to the input widgets:
+
+```css
 input[type=text],
 input[type=password],
 input[type=url],
@@ -290,7 +302,11 @@ legend {
   padding: 0 0.5rem;
   font-weight: 600;
 }
+```
 
+Blockquote stuff ...
+
+```css
 blockquote {
   margin: 0 0 1.5rem 0;
   border-left: 16px solid #e2e2e2;
@@ -305,7 +321,11 @@ blockquote cite {
   font-size: 1rem;
   text-align: right;
 }
+```
 
+The magic of making the footer stay at the bottom even when there's no filler content and it's without vertical scrollbars, is to use flexbox and set margin-top to auto.
+
+```css
 footer {
   margin-top: auto;
   background-color: #383838;
@@ -313,13 +333,22 @@ footer {
   font-size: smaller;
   text-align: center;
 }
+```
 
+For making pre behave when I really horizontally squish the page.
+
+```css
 pre {
   white-space: pre-line;
 }
+```
 
+Still not quite sure what this does yet.
+
+```css
 @media (min-width: 600px) {
   .contain-table {
     width: 100%;
   }
 }
+```
