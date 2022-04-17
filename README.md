@@ -14,7 +14,7 @@ I like bigger fonts in some things (for instance where it needs to be bigger lik
 
 In my "widgets" I like padding :-) but not necessarily bigger fonts. Do what you will.
 
-### html
+### <html>
 
 Setting a decent line-height below for your whole page. Feel free to adjust.
 
@@ -24,7 +24,7 @@ html {
 }
 ```
 
-### body
+### <body>
 
 Sets the height to 100% for view-height. The display uses flexbox. So, all direct child blocks are rendered in column fashion. Setting flex-direction to something other than "column" will make things look ... err ... funky. Consider not doing it.
 
@@ -40,6 +40,8 @@ body {
 }
 ```
 
+### headings
+
 I like my h1's kinda big.
 
 ```css
@@ -47,6 +49,8 @@ h1 {
   font-size: 2rem;
 }
 ```
+
+### nav's
 
 If you prefer to use "nav", I have it set to a nice dark color (not quite black though).
 
@@ -66,6 +70,9 @@ ul.nav {
 }
 ```
 
+The following allows a li.nav element to take up all space within the parent ul but show in the center.
+
+```css
 li.nav {
   width: 100px;
   text-align: center;
@@ -76,35 +83,67 @@ li.nav {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+```
 
+I also like a nice bg-color change on hover on the nav links :-)
+
+```css
 li.nav:hover {
   background-color: gray;
 }
+```
 
+The li.right is for the far right li element that will be aligned to the ... right.
+
+```css
 li.right {
   margin-left: auto;
 }
+```
 
+This is set so that first li element is not too far margin-ed from the left.
+
+```css
 li.first {
   margin-left: -1.4rem;
 }
+```
 
+Likewise, the last element on the right should have some space before running into the right side of the page.
+
+```css
 li.last {
   margin-right: 1rem;
 }
+```
 
+Since my nav links usually have a dark background, I like them to show up as very light colored.
+
+```css
 a.nav, a.nav:visited {
   color: white;
 }
+```
 
+I like to use <section> within a div and give the child content some padding.
+
+```css
 section {
   padding: 1rem;
 }
+```
 
+Consider this one optional. Normally, you wouldn't underline a heading but I have it here just for my demo page.
+
+```css
 .section-head {
   text-decoration: underline;
 }
+```
 
+Below are my normal link "a"'s.
+
+```css
 a, a:visited {
   color: gray;
   font-weight: 600;
@@ -116,12 +155,17 @@ a:hover {
   font-weight: 900;
   text-decoration: underline;
 }
+```
 
+Still not sure if I'm going to stick with these button stylings or not.
+
+```css
 button {
   padding: 0.3rem 1.1rem 0.3rem 1.1rem;
   font-family: inherit;
   border-radius: 5px;
 }
+```
 
 p, li, pre, td, th {
   opacity: 0.85;
