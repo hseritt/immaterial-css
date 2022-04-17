@@ -29,6 +29,25 @@ For simple nav links, try something like this:
 </ul>
 ```
 
+"nav" tells the browser to render the ul and li elements as inline type navigation links. "first" gives the first link some margin on the left. "right" pushes the link to the right. "last" gives the last link some margin on the right.
+
+To create some regular content, try something like this:
+
+```html
+<div class="page">
+    <section>
+        <h2 class="section-head">Paragraphs</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet porro eligendi accusantium blanditiis est atque ea accusamus, odit velit quod sequi necessitatibus quisquam quae! Laudantium at ratione minus repudiandae non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat tempora quo, repellendus cumque reprehenderit incidunt? Facere repellendus ipsam voluptatum voluptatem optio ab architecto aut voluptate reprehenderit blanditiis. Tempore, porro dolor. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ratione maxime consequuntur porro harum ipsam voluptatibus, corrupti voluptas inventore natus quam aliquam nihil nobis? Quae libero quibusdam alias reprehenderit ut? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas odio voluptatibus iusto dicta maiores est optio. Doloremque nobis hic repellendus, aperiam explicabo recusandae molestiae deserunt magnam unde ipsam sequi non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit porro voluptatibus ipsum tenetur voluptates illo, velit pariatur? Veniam libero doloremque hic, numquam unde repudiandae odio facere, ratione corporis tempora accusantium.
+        </p>
+    </section>
+</div>
+```
+
+Div gets no special attributes from immaterial.css but section does get a nice padding. Using #section-head with an h tag, gets an underline.
+
+Other than these, there are no special classes. Immaterial just styles a few things so you have nicer looking elements out of the box.
+
 ## Some Commentary
 
 ### html
