@@ -4,6 +4,18 @@
 
 Download the styles.css file to a place you can import it into your html page. It will take of the rest itself.
 
+## Some Guidelines
+
+I like flexbox for unknown number of rows or columns. It handles those nicely.
+
+I like grid when I have a set idea of how many columns (or rows) I'll need for elements. It's still "flexible" however in case you need to resize.
+
+I like bigger fonts in some things (for instance where it needs to be bigger like headings and such). I prefer "quieter" font styles for paragraphs or li element text.
+
+In my "widgets" I like padding :-) but not necessarily bigger fonts. Do what you will.
+
+### html
+
 Setting a decent line-height below for your whole page. Feel free to adjust.
 
 ```css
@@ -11,6 +23,8 @@ html {
   line-height: 1.3;
 }
 ```
+
+### body
 
 Sets the height to 100% for view-height. The display uses flexbox. So, all direct child blocks are rendered in column fashion. Setting flex-direction to something other than "column" will make things look ... err ... funky. Consider not doing it.
 
