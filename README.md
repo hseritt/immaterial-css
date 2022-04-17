@@ -2,7 +2,7 @@
 
 Yet another self-created css file. It has very little layout settings but it's mostly for styling.
 
-Inspired and ripped from [Tania Rascia's Primitive CSS framework](https://github.com/taniarascia/primitive).
+Inspired by and some of it ripped from [Tania Rascia's Primitive CSS framework](https://github.com/taniarascia/primitive).
 
 ## How to use?
 
@@ -10,13 +10,13 @@ Download the styles.css file to a place you can import it into your html page. I
 
 ## Some Guidelines
 
-I like flexbox for unknown number of rows or columns. It handles those nicely.
+* I like flexbox for those times when I have an unknown number of rows or columns. It handles those nicely.
 
-I like grid when I have a set idea of how many columns (or rows) I'll need for elements. It's still "flexible" however in case you need to resize.
+* I like grid when I have a very good idea of how many columns (or rows) I'll need for elements. It's still "flexible" however in case you need to resize.
 
-I like bigger fonts in some things (for instance where it needs to be bigger like headings and such). I prefer "quieter" font styles for paragraphs or li element text.
+* I like bigger fonts in some things (for instance where it needs to be bigger like headings and such). I prefer "quieter" font styles for paragraphs or li element text.
 
-In my "widgets" I like padding :-) but not necessarily bigger fonts. Do what you will.
+* In my "widgets" I like padding :-) but not necessarily bigger fonts. Do what you will.
 
 ### html
 
@@ -46,7 +46,7 @@ body {
 
 ### headings
 
-I like my h1's kinda big.
+I like my h1's kinda big. The other h(n)'s ... not so much.
 
 ```css
 h1 {
@@ -131,7 +131,7 @@ a.nav, a.nav:visited {
 
 ### section
 
-I like to use <section> within a div and give the child content some padding.
+I like to use ```<section>``` within a div and give the child content some padding.
 
 ```css
 section {
@@ -139,7 +139,7 @@ section {
 }
 ```
 
-Consider this one optional. Normally, you wouldn't underline a heading but I have it here just for my demo page.
+Consider this one optional. Normally, you wouldn't underline a heading but I have it here just for my demo page. Use this one with ```<h(n)>``` tag.
 
 ```css
 .section-head {
